@@ -1,2 +1,3 @@
-# cs50-course
-Some stuff so I can commit# cs50-course
+# CS50: Intro to Computer Science
+
+Notes and exercises from the course.

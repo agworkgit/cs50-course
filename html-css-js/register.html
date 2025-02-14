@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>register</title>
+        <body>
+            <form>
+                <!-- Regex patter goes into pattern, to check for specific matches we want -->
+                <!-- Clientside validation is not secure, eg regex, can be deleted in dev tools -->
+                <input autocomplete="off" autofocus name="email" pattern=".+@.+\.edu" placeholder="Email" type="email">
+                <button>Register</button>
+            </form>
+        </body>
+    </head>
+</html>

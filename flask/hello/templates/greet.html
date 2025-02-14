@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+<!-- I want to inherit all the code from this blueprint -->
+
+{% block body %}
+
+    hello, {% if name %}{{ name }}{% else %}world{% endif %}
+
+{% endblock %}
